@@ -74,9 +74,9 @@ def main():
             else:                                                                                                                   # Skip the iteration if both username and password are empty
                 continue
             if date_created != 86400000000 and date_created:
-                print(f"Created date: {str(get_chrome_datetime(date_created))}")                                                                                                # Print the created date if it is valid (not equal to 86400000000) and exists
+                print(f"Created date: {str(get_chrome_datetime(date_created))}")                                                    # Print the created date if it is valid (not equal to 86400000000) and exists
             if date_last_used != 86400000000 and date_last_used:
-                print(f"Last Used: {str(get_chrome_datetime(date_last_used))}")                                                                                             # Print the last used date if it is valid (not equal to 86400000000) and exists
+                print(f"Last Used: {str(get_chrome_datetime(date_last_used))}")                                                     # Print the last used date if it is valid (not equal to 86400000000) and exists
             print("="*50)                                                                                                           # Print a separator line after each login entry
         cursor.close()                                                                                                              # Close the cursor object
         db.close()                                                                                                                  # Close the database connection
