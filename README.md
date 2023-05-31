@@ -4,9 +4,15 @@ This script allows you to decrypt and retrieve saved passwords from the Google C
 
 ## Prerequisites
 
-- [Python 3.8.0]()
-- Cryptodome library (`pip install pycryptodomex`)
-- Cryptography library (`pip install cryptography`)
+- [Python 3.8.0](https://www.python.org/downloads/release/python-380/)
+- Cryptodome library 
+```
+pip install pycryptodomex
+```
+- Cryptography library
+```
+pip install cryptography
+```
 
 ## Functionality
 The functionality of the provided script can be summarized as follows:
@@ -69,3 +75,9 @@ By running this script, you can conveniently access and view your saved password
 ## Disclaimer
 
 Please note that extracting passwords without proper authorization may violate privacy and security laws. Ensure you have the necessary permissions and legal rights before using this script. This script is provided for educational purposes only.
+
+## Ouput
+![WhatsApp Image 2023-05-31 at 18 28 14](https://github.com/Shubham-Diwadkar/Browser-Password-Extractor/assets/125255910/fdd1f579-d8e8-4276-85b6-3e6d2f94beb5)
+
+
+![Thankyou](https://github.com/Shubham-Diwadkar/Browser-Password-Extractor/assets/125255910/0f1cf481-13ab-4675-9066-0281cbf848e9)
