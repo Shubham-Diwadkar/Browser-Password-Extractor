@@ -79,6 +79,10 @@ Please note that extracting passwords without proper authorization may violate p
 ## Ouput
 ![WhatsApp Image 2023-05-31 at 18 28 14](https://github.com/Shubham-Diwadkar/Browser-Password-Extractor/assets/125255910/fdd1f579-d8e8-4276-85b6-3e6d2f94beb5)
 
+## Contributing
+
+Contributions are welcome! If you find any issues or want to add new features, please submit a pull request.
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
